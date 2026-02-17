@@ -1,11 +1,16 @@
 # Prerequisites
 *.d
 
-# Compiled Object files
+# Compiled Object files and folders
 *.slo
 *.lo
 *.o
 *.obj
+**/x64/
+**/x86/
+**/Debug/
+**/Release/
+**/obj/
 
 # Precompiled Headers
 *.gch
@@ -39,3 +44,6 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio cache/options directory
+.vs/
